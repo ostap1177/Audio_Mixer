@@ -9,7 +9,7 @@ public class VolumeChange : MonoBehaviour
 
     private float value = 20f;
 
-    public void ChangeVolume(float volume)
+    public void ChangeSound(float volume)
     {
         for (int i=0; i<_mixersGroup.Count;i++)
         {

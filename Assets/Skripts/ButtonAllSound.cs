@@ -10,7 +10,7 @@ public class ButtonAllSound : MonoBehaviour
     private int _minValue = -80;
     private int _maxValue = 0;
 
-    public void OnButtonTurnsOffAllMusic()
+    public void OnTurnsAllMusic()
     {
         if (isClicked == false)
         {
