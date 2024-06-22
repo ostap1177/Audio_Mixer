@@ -10,17 +10,20 @@ public class ButtonAllSound : MonoBehaviour
     private int _minValue = -80;
     private int _maxValue = 0;
 
-    public void OnTurnsAllMusic()
+    public void OnMute()
     {
-        if (isClicked == false)
+        if (GetClicked() == true)
         {
-            isClicked = true;
             _audioMixerGroup.audioMixer.SetFloat(_mixerName, _minValue);
         }
         else
         {
-            isClicked = false;
             _audioMixerGroup.audioMixer.SetFloat(_mixerName, _maxValue);
         }
+    }
+
+    private bool GetClicked()
+    { 
+        return isClicked = !isClicked;
     }
 }

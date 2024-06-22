@@ -1198,8 +1198,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 764084485}
-        m_TargetAssemblyTypeName: VolumeChange, Assembly-CSharp
-        m_MethodName: ChangeVolume
+        m_TargetAssemblyTypeName: SoundChanger, Assembly-CSharp
+        m_MethodName: ChangeVoleme
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1316,9 +1316,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 809614890}
-        m_TargetAssemblyTypeName: VolumeChange, Assembly-CSharp
-        m_MethodName: ChangeVolume
+      - m_Target: {fileID: 764084485}
+        m_TargetAssemblyTypeName: SoundChanger, Assembly-CSharp
+        m_MethodName: ChangeVoleme
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1941,7 +1941,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.036112793, y: 0.87464285}
   m_AnchorMax: {x: 0.5, y: 0.95554763}
-  m_AnchoredPosition: {x: -22.156189, y: 33.918694}
+  m_AnchoredPosition: {x: -22.156189, y: 33.918697}
   m_SizeDelta: {x: 44.40387, y: 44.572884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277394167
@@ -2127,7 +2127,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1339605463}
         m_TargetAssemblyTypeName: ButtonAllSound, Assembly-CSharp
-        m_MethodName: OnButtonTurnsOffAllMusic
+        m_MethodName: OnMute
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2757,7 +2757,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1857963933}
+      - m_Target: {fileID: 1232129483}
         m_TargetAssemblyTypeName: ButtonPlaySound, Assembly-CSharp
         m_MethodName: OnButtonSoundClick
         m_Mode: 1
@@ -2904,7 +2904,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1866250927}
+      - m_Target: {fileID: 1232129483}
         m_TargetAssemblyTypeName: ButtonPlaySound, Assembly-CSharp
         m_MethodName: OnButtonSoundClick
         m_Mode: 1
@@ -3510,9 +3510,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2116636872}
-        m_TargetAssemblyTypeName: VolumeChange, Assembly-CSharp
-        m_MethodName: ChangeVolume
+      - m_Target: {fileID: 764084485}
+        m_TargetAssemblyTypeName: SoundChanger, Assembly-CSharp
+        m_MethodName: ChangeVoleme
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
